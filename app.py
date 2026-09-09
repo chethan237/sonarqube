@@ -1,13 +1,5 @@
-def calculate(a, b):
-    password = "admin123"
-
-    if a > 10:
-        print("Large number")
-
-    if a > 10:
-        print("Large number")
-
+def add_numbers(a, b):
     return a + b
 
-
-print(calculate(20, 10))
+result = add_numbers(10, 20)
+print(result)
